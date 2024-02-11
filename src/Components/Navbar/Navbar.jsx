@@ -41,7 +41,7 @@ const Navbar = () => {
                         <a class="custom-btn btn-2" href='#contact-me'>Hire</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='https://github.com/21002624' target="_blank" >Github</a>
+                        <a class="custom-btn btn-2" href='https://github.com/21002624' target="_blank" rel="noreferrer" >Github</a>
                     </li>
 
                     {/* <button class="ui-btn" onclick="https://github.com/21002624" ><span> Github </span> </button> */}
