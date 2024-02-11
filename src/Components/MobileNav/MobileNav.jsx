@@ -18,16 +18,16 @@ const MobileNav = ({isOpen , toggleMenu}) => {
                 <img className='logo' src='./asserts/logo.webp' alt='' />
                 <ul>
                 <li>
-                        <a class="custom-btn btn-2" href='#hero'>Home</a>
+                        <a className="custom-btn btn-2" href='#hero'>Home</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#skills'>Skills</a>
+                        <a className="custom-btn btn-2" href='#skills'>Skills</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#work'>Work</a>
+                        <a className="custom-btn btn-2" href='#work'>Work</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#contact-me'>Hire</a>
+                        <a className="custom-btn btn-2" href='#contact-me'>Hire</a>
                     </li>
 
                     

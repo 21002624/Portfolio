@@ -29,26 +29,26 @@ const Navbar = () => {
 
                 <ul>
                     <li>
-                        <a class="custom-btn btn-2" href='#hero'>Home</a>
+                        <a className="custom-btn btn-2" href='#hero'>Home</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#skills'>Skills</a>
+                        <a className="custom-btn btn-2" href='#skills'>Skills</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#work'>Work</a>
+                        <a className="custom-btn btn-2" href='#work'>Work</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='#contact-me'>Hire</a>
+                        <a className="custom-btn btn-2" href='#contact-me'>Hire</a>
                     </li>
                     <li>
-                        <a class="custom-btn btn-2" href='https://github.com/21002624' target="_blank" rel="noreferrer" >Github</a>
+                        <a className="custom-btn btn-2" href='https://github.com/21002624' target="_blank" rel="noreferrer" >Github</a>
                     </li>
 
                     {/* <button class="ui-btn" onclick="https://github.com/21002624" ><span> Github </span> </button> */}
                 </ul>
 
-                <button class='menu-btn' onClick={toggleMenu}>
-                    <span class={"material-symbols-outlined"} 
+                <button className='menu-btn' onClick={toggleMenu}>
+                    <span className={"material-symbols-outlined"} 
                     style={{fontSize :"1.8rem"}}>  
                     {openMenu ? "close" : "menu"} 
                     </span>
